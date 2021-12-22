@@ -1,0 +1,220 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#corpo{
+    width: 100%;
+    height: 109vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.corpo1{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+#logo{
+  color: #ff7200;
+  font-family: arial;
+  font-size: 25pt;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+#lista{
+  width: 400px;
+  height: 700px;
+  position: absolute;
+  left: 34%;
+  top: 10px;
+}
+ul{
+  display: flex;
+  float: left;
+  padding: 15px;
+  justify-content: center;
+  align-intems: center;
+}
+ul li{
+  margin-left: 40px;
+  list-style: none;
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 23pt;
+
+}
+ul li a{
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ transition: 0.4s ease;
+}
+ul li a:hover{
+ color: #ff7200;
+}
+.pqs{
+  width: 500px;
+  height: 900px;
+  position: absolute;
+  top: 15px;
+  margin-left:1470px;
+  margin-top: 10px;
+}
+.src{
+  font-family: 'Time New Roman';
+  background: transparent;
+  border: 2px solid #ff7200;
+  color: #fff;
+  text-align: center;
+  border-right: none;
+  width: 300px;
+  height: 60px;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.src:focus{
+  outline: none;
+}
+#btn{
+  width: 100px;
+  height: 60px;
+  positon: absolute;
+  margin-left: -8px;
+  background: #ff7200;
+  cursor: pointer;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid #ff7200;
+}
+.btn:focus{
+  outline: none;
+}
+#cadastro{
+  width: 420px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 1200px;
+  top: 30%;
+  border-radius: 10px;
+  padding: 25px;
+  color: #fff;
+  margin: auto;
+}
+#cadastro h2{
+  width: 300px;
+  font-family: sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  color: #ff7200;
+  padding: 8px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+#cadastro input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  margin: auto;
+
+}
+#cadastro input:focus{
+  outline: none;
+}
+::placeholder{
+ color: #ff7200;
+ font-family: arial;
+}
+.btm{
+  font-family: arial;
+  font-size: 22pt;
+  font-weight: bold;
+  background: transparent;
+  height: 50px;
+  width: 240px;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #ff7200;
+  transition: 0.2s aese;
+  cursor: pointer;
+  margin-left: 21%;
+}
+.btm:hover{
+  background-color: #ff7200;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  color: #ff7200;
+  margin-top: 10px;
+  text-spacing: 1.0px;
+}
+#cal{
+  width: 400px;
+  height: 580px;
+  background: rgba(0,0,0,0.9);
+  position: absolute;
+  margin-top: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.dora{
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+input{
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  border: 2px solid #ff7200;
+  text-decoration: none;
+}
+input:focus{
+  outline: nome;
+}
+#txt1{
+  border-bottom: none;
+
+}
+#txt2{
+  border-top: none;
+}
+h3{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 30pt;
+  color: #ff7200;
+}
+.buto{
+  font-family: arial;
+  background: transparent;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: 0.1s aese;
+}
+.buto:hover{
+ background: #ff7200;
+}
+#resu{
+  font-size: 30pt;
+  font-family: arial;
+  color: #ff7200;
+  font-weight: bold;
+}

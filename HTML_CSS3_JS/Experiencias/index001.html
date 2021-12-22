@@ -1,0 +1,58 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width initial-scale=1.0">
+	<title>Experiências com login</title>
+	<link rel="shortecut icon" href="favicon.ico.jpg">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="corpo">
+	<div class="porco1">
+		<div id="logo">
+			<h1>As Ednas Joaquim</h1>
+		</div>
+		<div id="lista">
+			<ul>
+				<li><a href="#">IMAGENS</a></li>
+				<li><a href="#">MÚSICAS</a></li>
+				<li><a href="#">VIDEOS</a></li>
+				<li><a href="#">CONTACTOS</a></li>
+			</ul>
+		</div>
+		<div class="pqs">
+			<input class="src" type="search" name="" placeholder="search">
+			<a href="#"><button id="btn">search</button></a>
+		</div>
+		<div id="cadastro">
+			<form class="cd">
+				<h2>Login</h2>
+				<label for="name"></label>
+			    <input type="text" name="nome" id="nome" placeholder="name: " required><br/>
+			    <label for="sobrinome"></label>
+			    <input type="text" name="sobri" id="sobri" placeholder="sobrinome: " required><br/>
+			    <label for="email"></label>
+			    <input type="email" name="email" id="email" placeholder="email: " required><br/>
+			    <label for="numero"></label>
+				<input type="tel" name="tel" id="tel" placeholder="fone number: " required><br/>
+			    <label for="Enviar"></label>
+			    <button value="enviar" onclick="enviar" class="btm">Send</button>
+			</form>
+			<p>&copy;As EdnasJoaquiJofrisse</p>
+			<p><a href="#">sig up</a>Login</p>
+		</div>
+		<div id="cal">
+			<article class="dora">
+			    <h3>Calculadora</h3>
+			    <input type="number" name="txt1" id="txt1">
+			    <input type="number" name="txt2" id="txt2"><br/>
+			    <button class="buto" value="somar" onclick="somar()">somar</button>
+				<div id="resu">Aqui vai o resultado! </div>
+			</article>
+	    </div>
+	</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

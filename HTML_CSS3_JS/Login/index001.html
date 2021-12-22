@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>LOGIN</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+	<h1 id="titulo">Formulario</h1>
+	<p id="subtitulo"><strong>Faça o seu Cadastro</strong></p>
+	<br/>
+</div>
+<form>
+	<fieldset class="grupo">
+		<div class="campo">
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" required>
+		</div>
+		<div class="campo">
+			<label for="sobrinome">Sobrinome</label>
+			<input type="text" name="Sobrinome" id="Sobrinome" required>
+		</div>
+	</fieldset>
+	<div class="campo">
+		<label for="email">email</label>
+		<input type="email" name="email" id="email" required>
+	</div>
+	<div class="campo">
+		<label><strong>Qual lado da aplicação você desenvolve: </strong></label>
+		<label>
+			<input type="radio" name="devweb" value="front-end" checked>front-end
+		</label>
+		<label>
+			<input type="radio" name="devweb" value="back-end">back-end
+		</label>
+		<label>
+			<input type="radio" name="devweb" value="fultack">fulstack
+		</label>
+	</div>
+	<div class="campo">
+		<label>Senoiridade: </label>
+		<select for="senioridade" id="senioridade">
+			<option selected disabled value="">Selecione</option>
+			<option>senior</option>
+			<option>junior</option>
+			<option>nando</option>
+		</select>
+	</div>
+	<fieldset class="grupo">
+		<div id="check">
+			<label><strong>Selecione A tecnologia que voçê Utiliza: </strong></label>
+		    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML5">
+		    <label for="tecnologia1">HTML5</label>
+		    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Python">
+		    <label for="tecnologia2">Python</label>
+		    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="PHP">
+		    <label for="tecnologia3">PHP</label>
+		    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="JAVASCRIPT">
+			<label for="tecnologia4">JAVASCRIPT</label>
+		</div>
+	</fieldset>
+	<div class="campo">
+		<br/>
+		<label><strong>Comente um pouco sobre a sua tecnogia</strong></label>
+		<textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+	</div>
+	<p><button class="botao" type="submit">Concluido</button> Se já Tiver uma conta Faça o <a href="#">login??</a> </p>
+</form>
+<script src="script.js"></script></script>
+<footer>
+	<p>&copy; As EdnasJoaquim <br/>Para mais imformações contactenos <a href="ednajoaquimalface@gmail.com">Clique aqui</a></p>
+</footer>
+</body>
+</html>
